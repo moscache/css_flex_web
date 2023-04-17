@@ -1,0 +1,40 @@
+/* Utilizando el selector universal (apunt a a todos)
+ para realizar el set de CSS*/
+ * {
+    /* se eliminan todos los margin por defecto */
+    margin: 0;
+    /* se eliminan todos los padding por defecto */
+    padding: 0; 
+  }
+
+  body {
+    height: 100%;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  section{
+    background-color: aqua;
+    padding: 5px;
+  }
+
+  .lenguaje{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  footer{
+    background-color: rgb(0, 102, 255);
+    padding: 15px;
+  }
+  ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+}
+ 

@@ -1,0 +1,28 @@
+* {
+    /* se eliminan todos los margin por defecto */
+    margin: 0;
+    /* se eliminan todos los padding por defecto */
+    padding: 0; 
+    /* se elimina el estilo de las listas */
+    list-style-type: none;
+
+  }
+
+  body{
+    height: 100%;
+    width: 400px;
+  }
+  nav ul{
+    background-color:black ;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 15px;
+  }
+
+  img{
+    width: 25px;
+  }
+  .rostro{
+    width: 45px;
+  }
