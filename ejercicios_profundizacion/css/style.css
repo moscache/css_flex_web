@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0; 
+  }
+
+body{
+    width: 100%;
+}
+
+section{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+.caja1{
+  width: 100px;
+  height: 100px;
+  background-color: rgba(0, 255, 21, 0.543);
+  border-radius: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
